@@ -1,5 +1,5 @@
-const apiKey = window.env.API_KEY;
-const apiUrl = window.env.API_URL;
+const apiKey = `${process.env.API_KEY}`;
+const apiUrl = `${process.env.API_URL}`;
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
