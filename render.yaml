@@ -3,4 +3,3 @@ services:
     name: weatherApp
     env: static
     buildCommand: ./build.sh
-    staticPublishPath: ./build
